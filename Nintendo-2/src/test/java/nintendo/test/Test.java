@@ -27,15 +27,15 @@ public class Test
 		 
 	     Jeu jeu4 = new Jeu("Pokemon", switchConsole, boutique);
 	     Jeu jeu5 = new Jeu("Super Smash Bros", switchConsole, boutique);
+	     Jeu jeu1 = new Jeu("Zelda", switchConsole, boutique);
+	     Jeu jeu3 = new Jeu("Rocket league", switchConsole, boutique);
+	     Jeu jeu2 = new Jeu("R6", switchConsole, boutique);
 	     
 	     Collections.addAll(achats, new Achat(jeu1,LocalDate.now(),54.99), new Achat(jeu4,LocalDate.now(),59.99));
 	     achats2.add(new Achat(jeu3,LocalDate.now(),29.99));
 	     
 	     Client client1 = new Client("Dugauguez","Theo", achats);
 	     Client client2 = new Client("Cambray","Martin", achats2);
-	     Jeu jeu1 = new Jeu("Zelda", switchConsole, boutique);
-	     Jeu jeu3 = new Jeu("Rocket league", switchConsole, boutique);
-	     Jeu jeu2 = new Jeu("R6", switchConsole, boutique);
 
 	     System.out.println(jeu1);
 	     System.out.println(jeu2);
