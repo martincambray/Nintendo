@@ -2,7 +2,7 @@ package nintendo.test;
 
 public class Test 
 {
-	public class Console 
+	public static class Console 
 	{
 	    private String nom;
 	    public Console(String nom) 
@@ -15,7 +15,7 @@ public class Test
 	    }
 	}
 	
-	public class Jeu 
+	public static class Jeu 
 	{
 	    private String titre;
 	    private Console console;
@@ -48,6 +48,4 @@ public class Test
 	     System.out.println(jeu4);
 	     System.out.println(jeu5);
 	}
-	
-
 }
