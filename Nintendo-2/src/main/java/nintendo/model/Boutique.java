@@ -6,6 +6,7 @@ public class Boutique {
 		this.nom = nom;
 		this.adresse = adresse;
 	}
+	
 	@Override
 	public String toString() {
 		return "Boutique [nom=" + nom + "]";
