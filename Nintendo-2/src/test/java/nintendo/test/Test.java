@@ -18,7 +18,7 @@ public class Test
 	
 	public static void main(String[] args) 
 	{
-		 Hybride switchConsole = new Hybride("Nintendo Switch");
+		 Hybride switchConsole = new Hybride("Nintendo Switch",349.99,LocalDate.parse("2017-03-03"));
 		 
 		 Boutique boutique = new Boutique("Luigi", new Adresse(10, "El Pasta", "Napoli"));
 		 
