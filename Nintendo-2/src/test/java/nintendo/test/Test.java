@@ -25,9 +25,6 @@ public class Test
 		 List<Achat> achats = new ArrayList();
 		 List<Achat> achats2 = new ArrayList();
 		 
-	     Jeu jeu1 = new Jeu("Zelda", switchConsole, boutique);
-	     Jeu jeu2 = new Jeu("R6", switchConsole, boutique);
-	     Jeu jeu3 = new Jeu("Rocket league", switchConsole, boutique);
 	     Jeu jeu4 = new Jeu("Pokemon", switchConsole, boutique);
 	     Jeu jeu5 = new Jeu("Super Smash Bros", switchConsole, boutique);
 	     
@@ -36,6 +33,9 @@ public class Test
 	     
 	     Client client1 = new Client("Dugauguez","Theo", achats);
 	     Client client2 = new Client("Cambray","Martin", achats2);
+	     Jeu jeu1 = new Jeu("Zelda", switchConsole, boutique);
+	     Jeu jeu3 = new Jeu("Rocket league", switchConsole, boutique);
+	     Jeu jeu2 = new Jeu("R6", switchConsole, boutique);
 
 	     System.out.println(jeu1);
 	     System.out.println(jeu2);
