@@ -7,10 +7,6 @@ public class Boutique {
 		this.adresse = adresse;
 	}
 	
-	@Override
-	public String toString() {
-		return "Boutique [nom=" + nom + "]";
-	}
 	public String getNom() {
 		return nom;
 	}
@@ -24,4 +20,11 @@ public class Boutique {
 		this.adresse = adresse;
 	}
 	private Adresse adresse;
+	
+	@Override
+	public String toString() {
+		return "Boutique [nom=" + nom + ", adresse=" + adresse + "]";
+	}
+	
+	
 }

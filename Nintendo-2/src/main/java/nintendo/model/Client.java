@@ -7,11 +7,6 @@ public class Client {
   protected String prenom;
   protected List<Achat> listeAchats;
 
-  @Override
-  public String toString() {
-    return "Client [nom=" + nom + ", prenom=" + prenom + "]";
-  }
-
   public Client(String prenom, String nom, List<Achat> listeAchats) {
     this.prenom = prenom;
     this.nom = nom;
@@ -25,4 +20,11 @@ public class Client {
   public void setPrenom(String prenom) {
     this.prenom = prenom;
   }
+
+  @Override
+  public String toString() {
+	return "Client [nom=" + nom + ", prenom=" + prenom + ", listeAchats=" + listeAchats + "]";
+  }
+  
+  
 }

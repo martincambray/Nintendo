@@ -52,12 +52,11 @@ public class Jeu {
 		this.console = console;
 	}
 
-
-
 	@Override
 	public String toString() {
-		return "Jeu [titre=" + titre + ", console=" + console + "]";
+		return "Jeu [titre=" + titre + ", console=" + console + ", boutique=" + boutique + "]";
 	}
+
 	
 	
 }

@@ -42,5 +42,9 @@ public class Test
 	     System.out.println(jeu3);
 	     System.out.println(jeu4);
 	     System.out.println(jeu5);
+	     
+	     System.out.println("\n------------Clients------------\n");
+	     System.out.println(client1);
+	     System.out.println("\n" + client2);
 	}
 }
